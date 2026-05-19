@@ -121,15 +121,16 @@ Pull requests are important because they allow:
 Create a pull request on GitHub:
 
 1. Open the repository on GitHub.
-2. Click: Compare & Pull Request.
+2. Click: Compare & pull request.
 3. Add title and description.
-4. Submit the pull request
+4. Click: Create pull request
 
 After review, you can merge the pull request:
 
 1. Click: Merge pull request
-2. Confirm merge
-3. Delete the branch if no longer needed
+2. You can add Commit message and Extended description.
+3. Click: Confirm merge
+4. Delete the branch if no longer needed.
 
 Now the changes become part of the main branch.
 
