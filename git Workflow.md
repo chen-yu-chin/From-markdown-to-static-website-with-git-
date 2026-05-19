@@ -73,7 +73,7 @@ This downloads the repository to your local machine.
    3. Before saving changes, check the repository status: `git status`  
     You may see: `Untracked files: README.md`
 
-        This means git sees the file but is not tracking it yet. 
+        This means git sees the file but is not tracking it yet.  
         You must add your files to tracking before commiting them.
 
    4. Track a specific file: `git add README.md`   
