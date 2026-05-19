@@ -77,17 +77,18 @@ This downloads the repository to your local machine.
         You must add your files to tracking before commiting them.
 
    4. Track a specific file: `git add README.md`   
-Or track all changed files: `git add --all`   
-Now the files are in the staging area, ready for commit.
+    Or track all changed files: `git add --all`    
+
+        Now the files are in the staging area, ready for commit.
+
    5. Commit your files: `git commit -m "some description"` 
-   6. Push your changes to Github: `git push`    
-Now your remote repository is updated.   
-You can refresh GitHub in the browser to see the changes online.
+   6. Push your changes to Github: `git push`     
+
+        Now your remote repository is updated.   
+        You can refresh GitHub in the browser to see the changes online.
    7. Use `git log` to view your commit history.
 
 ---
-
-
 
 ### Working with Branches
 
@@ -107,7 +108,6 @@ Now the branch exists online on GitHub.
 
 ---
   
-
 ### Pull requests and merge:
 
 A pull request is a request to merge changes from one branch into another.
