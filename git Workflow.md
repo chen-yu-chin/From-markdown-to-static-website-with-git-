@@ -32,14 +32,15 @@ git works locally on your computer, while GitHub allows you to:
 
 ### Preparation
 
-- Make sure you already have a [Github](https://github.com/?utm_source=chatgpt.com) account.
-- Install [git](https://git-scm.com/install/).
+- Make sure you already have a [Github](https://github.com/?utm_source=chatgpt.com) account
+- Install [git](https://git-scm.com/install/)
 - Check your git version, open your terminal and run: 
   `git --version`
-- Configure your username and email:
+- Configure your username and email:   
+  
   `git config --global user.name "Your Name"`
 
-    `git config --global user.email "your@email.com"`
+  `git config --global user.email "your@email.com"`
 
 ---
 
@@ -57,9 +58,9 @@ Create a new repository:
 
 Clone the repository:
 
-1. Go to the repository you want to clone.
-2. Click on the drop-down menu: <> Code.
-3. Copy the repository URL.
+1. Go to the repository you want to clone
+2. Click on the drop-down menu: <> Code
+3. Copy the repository URL
 4. Go to Terminal and type in: `git clone https://github.com/yourname/your-repo.git`
 
 This downloads the repository to your local machine.
@@ -69,7 +70,7 @@ This downloads the repository to your local machine.
 ### Create First Commit
 
    1. Move into the project folder: `cd your-repo`
-   2. You can create new files or edit existing files in the folder.
+   2. You can create new files or edit existing files in the folder
    3. Before saving changes, check the repository status: `git status`  
     You may see: `Untracked files: README.md`
 
@@ -86,7 +87,7 @@ This downloads the repository to your local machine.
 
         Now your remote repository is updated.   
         You can refresh GitHub in the browser to see the changes online.
-   7. Use `git log` to view your commit history.
+   7. Use `git log` to view your commit history
 
 ---
 
@@ -120,17 +121,17 @@ Pull requests are important because they allow:
 
 Create a pull request on GitHub:
 
-1. Open the repository on GitHub.
-2. Click: Compare & pull request.
-3. Add title and description.
+1. Open the repository on GitHub
+2. Click: Compare & pull request
+3. Add title and description
 4. Click: Create pull request
 
 After review, you can merge the pull request:
 
 1. Click: Merge pull request
-2. You can add Commit message and Extended description.
+2. You can add Commit message and Extended description
 3. Click: Confirm merge
-4. Delete the branch if no longer needed.
+4. Delete the branch if no longer needed
 
 Now the changes become part of the main branch.
 
