@@ -1,4 +1,4 @@
-### Introductory documentation for working with Markdown and git/GitHub workflows.
+#### Introductory documentation for working with Markdown and git/GitHub workflows.
 
 → [Read the Markdown Guide](./Basic%20Markdown%20Syntax.md)
 
