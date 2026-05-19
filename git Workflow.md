@@ -38,7 +38,8 @@ git works locally on your computer, while GitHub allows you to:
   `git --version`
 - Configure your username and email:
   `git config --global user.name "Your Name"`
-`git config --global user.email "your@email.com"`
+
+    `git config --global user.email "your@email.com"`
 
 ---
 
@@ -57,9 +58,9 @@ Create a new repository:
 Clone the repository:
 
 1. Go to the repository you want to clone.
-2. Click on the drop-down menu `<> Code`.
+2. Click on the drop-down menu: <> Code.
 3. Copy the repository URL.
-4. Go to Terminal and type in `git clone https://github.com/yourname/your-repo.git`
+4. Go to Terminal and type in: `git clone https://github.com/yourname/your-repo.git`
 
 This downloads the repository to your local machine.
 
@@ -69,19 +70,20 @@ This downloads the repository to your local machine.
 
    1. Move into the project folder: `cd your-repo`
    2. You can create new files or edit existing files in the folder.
-   3. Before saving changes, check the repository status: `git status`
+   3. Before saving changes, check the repository status: `git status`  
     You may see: `Untracked files: README.md`
 
-        This means git sees the file but is not tracking it yet. You must add your files to tracking before commiting them.
+        This means git sees the file but is not tracking it yet. 
+        You must add your files to tracking before commiting them.
 
-   1. Track a specific file: `git add README.md`
-Or track all changed files: `git add --all`
+   4. Track a specific file: `git add README.md`   
+Or track all changed files: `git add --all`   
 Now the files are in the staging area, ready for commit.
-1. Commit your files: `git commit -m "some description"` 
-2. Push your changes to Github: `git push` 
-Now your remote repository is updated.
+   5. Commit your files: `git commit -m "some description"` 
+   6. Push your changes to Github: `git push`    
+Now your remote repository is updated.   
 You can refresh GitHub in the browser to see the changes online.
-1. Use `git log` to view your commit history.
+   7. Use `git log` to view your commit history.
 
 ---
 
@@ -89,7 +91,7 @@ You can refresh GitHub in the browser to see the changes online.
 
 ### Working with Branches
 
-Branches allow you to experiment safely without affecting the main project.
+Branches allow you to experiment safely without affecting the main project.   
 Instead of editing directly on main, you can create a separate branch.
 
 1. Create a new branch: `git branch new-branch`
@@ -147,18 +149,32 @@ Now your local repository is synchronized.
 ### Team Collaboration Workflow
 
 main branch
+
    ↓
+
 create branch
+
    ↓
+
 edit documentation
+
    ↓
+
 commit changes
+
    ↓
+
 push branch
+
    ↓
+
 open pull request
+
    ↓
+
 review and discussion
+
    ↓
+   
 merge into main
 
